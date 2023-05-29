@@ -15,7 +15,7 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'Laravel Vue 3 Stater'),
+    'name' => env('APP_NAME', 'Welcome Сайт для туризма'),
 
     /*
     |--------------------------------------------------------------------------
@@ -85,11 +85,13 @@ return [
     'locale' => 'en',
     'locales' => [
         'en' => 'EN',
-        'bn' => 'BN',
-        'es' => 'ES',
-        'fr' => 'FR',
-        'pt-BR' => 'BR',
-        'zh-CN' => '中文',
+        'ru' => 'RU',
+        // 'bn' => 'BN',
+        // 'es' => 'ES',
+        // 'fr' => 'FR',
+        // 'pt-BR' => 'BR',
+        // 'zh-CN' => '中文',
+        
     ],
 
     /*

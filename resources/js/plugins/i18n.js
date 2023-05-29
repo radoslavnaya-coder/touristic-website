@@ -6,7 +6,7 @@ const i18n = createI18n({
     globalInjection: true,
     runtimeOnly: false,
     locale: 'en', // set locale
-    fallbackLocale: 'en', // set fallback locale
+    fallbackLocale: 'en',// set fallback locale
     messages: {} // set locale messages
 })
 

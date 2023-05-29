@@ -1,11 +1,11 @@
 <template>
-    <footer class="footer footer-dark bg-dark">
+    <main class="footer footer-dark bg-dark">
         <div class="container text-center py-5">
             <p>
                 Laravel and Vue 3 Stater
             </p>
         </div>
-    </footer>
+    </main>
 </template>
 
 <script>

@@ -1,5 +1,8 @@
 // Fonts
 @import url('https://fonts.bunny.net/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css2?family=Oswald');
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+
 
 // Variables
 @import 'variables';
@@ -9,4 +12,8 @@
 
 a {
     text-decoration: none !important;
+    color: black;
+}
+a:hover{
+    color: #444141;
 }
