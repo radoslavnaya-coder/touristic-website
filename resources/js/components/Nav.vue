@@ -3,6 +3,7 @@
     <nav class="navbar navbar-expand-md navbar-light">
         <div class="container">
             <router-link to="/" class="navbar-brand navbar-script">Welcome</router-link>
+
             <a class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </a>
@@ -10,6 +11,9 @@
                 <ul class="navbar-nav mt-2 mt-lg-0 me-auto mb-2 mb-lg-0">
                     <LocaleSwitcher />
                 </ul>
+            <a href="" class="mx-3 category__text2">{{ $t("Развлечения")}}</a>
+            <a href="" class="mx-3 category__text2">{{ $t("Еда")}}</a>
+            <a href="" class="mx-3 category__text2">{{ $t("Интересное")}}</a>
                 <ul class="navbar-nav mt-2 mt-lg-0 ms-auto">
                     <template v-if="!user?.name">
                         <!-- <li class="nav-item">
@@ -43,9 +47,9 @@
     </nav>
     <nav class="category-type">
         <div class="container my-2">
-            <a href="" class="mx-3 category__text">{{ $t("Развлечения")}}</a>
-            <a href="" class="mx-3 category__text">{{ $t("Еда")}}</a>
-            <a href="" class="mx-3 category__text">{{ $t("Интересное")}}</a>
+            <a href="" class="mx-3 category__text">{{ $t("Для интровертов")}}</a>
+            <a href="" class="mx-3 category__text">{{ $t("Гастро-тур")}}</a>
+            <a href="" class="mx-3 category__text">{{ $t("Достопримечательности")}}</a>
         </div>
     </nav>
 </header>
@@ -78,6 +82,9 @@ import LocaleSwitcher from "../components/LocaleSwitcher.vue";
     text-align: center;
     }
     .category__text{
+        font-size: 14px;
+    }
+    .category__text2{
         font-size: 18px;
     }
     .navbar-script{
