@@ -1,5 +1,5 @@
 <template>
-    <img src="../../../images/banner-image.png" style="width: 100%; height: 249px" />
+    <img src="@/images/banner-image.png" style="width: 100%; height: 249px" />
     <!-- <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center py-4 sm:pt-0">
         <div class="max-w-6xl mx-auto sm:px-6 lg:px-8"> -->
             <!-- <div class="flex justify-center pt-8 sm:text-gray-600 dark:text-gray-400 text-sm">
@@ -23,7 +23,7 @@
                     </div>
                 </div>
                 <div class="card col-2 col">
-                    <img class="card-img-top" src="" alt="Card image cap" />
+                    <img class="card-img-top" src="@/images/banner-image.png" alt="Card image cap" />
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
                         <p class="card-text">
@@ -40,7 +40,7 @@
                 <div class="card col-2 col">
                     <img
                         class="card-img-top"
-                        src="/images/banner-image.png"
+                        src="@/images/banner-image.png"
                         alt="Card image cap"
                     />
                     <div class="card-body">
@@ -61,7 +61,82 @@
                 <div class="card col-2 col">
                     <img
                         class="card-img-top"
-                        src="/images/banner-image.png"
+                        src="@/images/banner-image.png"
+                        alt="Card image cap"
+                    />
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">
+                            This is a wider card with supporting text below as a
+                            natural lead-in to additional content. This card has
+                            even longer content than the first to show that
+                            equal height action.
+                        </p>
+                        <p class="card-text">
+                            <small class="text-muted"
+                                >Last updated 3 mins ago</small
+                            >
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-deck row justify-content-center mt-5">
+                <div class="card col-2 col">
+                    <img class="card-img-top" src="" alt="Card image cap" />
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">
+                            This is a longer card with supporting text below as
+                            a natural lead-in to additional content. This
+                            content is a little bit longer.
+                        </p>
+                        <p class="card-text">
+                            <small class="text-muted"
+                                >Last updated 3 mins ago</small
+                            >
+                        </p>
+                    </div>
+                </div>
+                <div class="card col-2 col">
+                    <img class="card-img-top" src="@/images/banner-image.png" alt="Card image cap" />
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">
+                            This card has supporting text below as a natural
+                            lead-in to additional content.
+                        </p>
+                        <p class="card-text">
+                            <small class="text-muted"
+                                >Last updated 3 mins ago</small
+                            >
+                        </p>
+                    </div>
+                </div>
+                <div class="card col-2 col">
+                    <img
+                        class="card-img-top"
+                        src="@/images/banner-image.png"
+                        alt="Card image cap"
+                    />
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">
+                            This is a wider card with supporting text below as a
+                            natural lead-in to additional content. This card has
+                            even longer content than the first to show that
+                            equal height action.
+                        </p>
+                        <p class="card-text">
+                            <small class="text-muted"
+                                >Last updated 3 mins ago</small
+                            >
+                        </p>
+                    </div>
+                </div>
+                <div class="card col-2 col">
+                    <img
+                        class="card-img-top"
+                        src="@/images/banner-image.png"
                         alt="Card image cap"
                     />
                     <div class="card-body">

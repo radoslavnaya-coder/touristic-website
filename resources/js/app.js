@@ -1,7 +1,7 @@
 import './bootstrap';
 
 import { createApp } from 'vue';
-import LaravelVuePagination from 'laravel-vue-pagination';
+import * as LaravelVuePagination from 'laravel-vue-pagination';
 import store from './store'
 import router from './routes/index'
 import VueSweetalert2 from "vue-sweetalert2";

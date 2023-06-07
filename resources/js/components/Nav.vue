@@ -1,5 +1,5 @@
 <template>
-<div class="banner-bg">
+<header class="banner-bg">
     <nav class="navbar navbar-expand-md navbar-light">
         <div class="container">
             <router-link to="/" class="navbar-brand navbar-script">Welcome</router-link>
@@ -41,14 +41,14 @@
             </div>
         </div>
     </nav>
-    <nav class="bg-white category-type">
+    <nav class="category-type">
         <div class="container my-2">
-            <a href="" class="mx-1 category__text">{{ $t("Развлечения")}}</a>
-            <a href="" class="mx-1 category__text">{{ $t("Еда")}}</a>
-            <a href="" class="mx-1 category__text">{{ $t("Интересное")}}</a>
+            <a href="" class="mx-3 category__text">{{ $t("Развлечения")}}</a>
+            <a href="" class="mx-3 category__text">{{ $t("Еда")}}</a>
+            <a href="" class="mx-3 category__text">{{ $t("Интересное")}}</a>
         </div>
     </nav>
-    </div>
+</header>
 </template>
 
 <script setup>
@@ -63,7 +63,8 @@ import LocaleSwitcher from "../components/LocaleSwitcher.vue";
 </script>
 <style scoped>
 .banner-bg{
-    background: url('../../../images/banner-bg.png');
+    background: url('@/images/banner-bg-1980.png') no-repeat;
+    background-size: 75vw;
 }
 .login-button{
     background: black;
