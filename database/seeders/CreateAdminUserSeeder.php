@@ -25,11 +25,25 @@ class CreateAdminUserSeeder extends Seeder
         ]);
 
         $role = Role::create(['name' => 'Admin']);
-        Category::create(['name' => 'Vue.js']);
+        $guestRole =  Role::create(['name' => 'Guest']);
+
+        Category::create(['name' => 'Entertainments']);
+        Category::create(['name' => 'Food']);
+        Category::create(['name' => 'Exciting']);
+
+        Category::create(['name' => 'For introverts']);
+        Category::create(['name' => 'Gastro tour']);
+        Category::create(['name' => 'Attractions']);
+        Category::create(['name' => 'Fountains']);
+        Category::create(['name' => 'Events']);
+        Category::create(['name' => 'Theaters and circuses']);
+        Category::create(['name' => 'For children']);
+        Category::create(['name' => 'Festivals']);
 
         $permissions = Permission::pluck('id','id')->all();
 
         $role->syncPermissions($permissions);
+        $guestRole->syncPermissions($permissions);
 
         $user->assignRole([$role->id]);
     }

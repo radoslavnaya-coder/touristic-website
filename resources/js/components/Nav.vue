@@ -11,9 +11,9 @@
                 <ul class="navbar-nav mt-2 mt-lg-0 me-auto mb-2 mb-lg-0">
                     <LocaleSwitcher />
                 </ul>
-            <a href="" class="mx-3 category__text2">{{ $t("Развлечения")}}</a>
-            <a href="" class="mx-3 category__text2">{{ $t("Еда")}}</a>
-            <a href="" class="mx-3 category__text2">{{ $t("Интересное")}}</a>
+            <a href="" class="mx-3 category__text2">{{ $t("entertainment")}}</a>
+            <a href="" class="mx-3 category__text2">{{ $t("food")}}</a>
+            <a href="" class="mx-3 category__text2">{{ $t("exciting")}}</a>
                 <ul class="navbar-nav mt-2 mt-lg-0 ms-auto">
                     <template v-if="!user?.name">
                         <!-- <li class="nav-item">

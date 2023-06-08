@@ -3,9 +3,9 @@
     "ok": "Ок",
     "cancel": "Продолжить",
     "error_alert_title": "Упс...",
-    "error_alert_text": "Something went wrong! Please try again.",
-    "token_expired_alert_title": "Session Expired!",
-    "token_expired_alert_text": "Please log in again to continue.",
+    "error_alert_text": "Что-то пошло не так! Попробуйте ещё раз.",
+    "token_expired_alert_title": "Сеанс истёк!",
+    "token_expired_alert_text": "Пожалуйста, войдите в систему ещё раз, чтобы продолжить.",
     "login": "Войти",
     "register": "Регистрация",
     "page_not_found": "Страница не найдена",
@@ -17,7 +17,7 @@
     "forgot_password": "Запомнить пароль?",
     "confirm_password": "Подтверждение пароля",
     "name": "Имя",
-    "toggle_navigation": "Toggle navigation",
+    "toggle_navigation": "Переключение навигации",
     "home": "Главная",
     "you_are_logged_in": "Вы вошли!",
     "reset_password": "Сброс пароля",
@@ -36,5 +36,8 @@
     "send_verification_link": "Отправить ссылку для подтверждения",
     "resend_verification_link": "Отправить заново ?",
     "failed_to_verify_email": "Ошибка подтверждения Email.",
-    "verify_email_address": "We sent you an email with an the verification link."
+    "verify_email_address": "Мы отправили вам электронное письмо со ссылкой для подтверждения.",
+    "entertainment": "Развлечения",
+    "food": "Еда",
+    "exciting": "Интересное"
 }
