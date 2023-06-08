@@ -7,7 +7,7 @@
             </div> -->
             <div class="card-deck row justify-content-center mt-5">
                 <div class="card col-2 col">
-                    <img class="card-img-top" src="" alt="Card image cap" />
+                    <img class="card-img-top" src="@/images/item1__image.png" alt="Card image cap" />
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
                         <p class="card-text">
@@ -23,7 +23,7 @@
                     </div>
                 </div>
                 <div class="card col-2 col">
-                    <img class="card-img-top" src="@/images/banner-image.png" alt="Card image cap" />
+                    <img class="card-img-top" src="@/images/item1__image.png" alt="Card image cap" />
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
                         <p class="card-text">
@@ -40,7 +40,7 @@
                 <div class="card col-2 col">
                     <img
                         class="card-img-top"
-                        src="@/images/banner-image.png"
+                        src="@/images/item1__image.png"
                         alt="Card image cap"
                     />
                     <div class="card-body">
@@ -61,7 +61,7 @@
                 <div class="card col-2 col">
                     <img
                         class="card-img-top"
-                        src="@/images/banner-image.png"
+                        src="@/images/item1__image.png"
                         alt="Card image cap"
                     />
                     <div class="card-body">
@@ -82,7 +82,7 @@
             </div>
             <div class="card-deck row justify-content-center mt-5">
                 <div class="card col-2 col">
-                    <img class="card-img-top" src="" alt="Card image cap" />
+                    <img class="card-img-top" src="@/images/item1__image.png" alt="Card image cap" />
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
                         <p class="card-text">
@@ -98,7 +98,7 @@
                     </div>
                 </div>
                 <div class="card col-2 col">
-                    <img class="card-img-top" src="@/images/banner-image.png" alt="Card image cap" />
+                    <img class="card-img-top" src="@/images/item1__image.png" alt="Card image cap" />
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
                         <p class="card-text">
@@ -115,7 +115,7 @@
                 <div class="card col-2 col">
                     <img
                         class="card-img-top"
-                        src="@/images/banner-image.png"
+                        src="@/images/item1__image.png"
                         alt="Card image cap"
                     />
                     <div class="card-body">
@@ -136,7 +136,7 @@
                 <div class="card col-2 col">
                     <img
                         class="card-img-top"
-                        src="@/images/banner-image.png"
+                        src="@/images/item1__image.png"
                         alt="Card image cap"
                     />
                     <div class="card-body">

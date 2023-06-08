@@ -41,7 +41,7 @@ export default function useAuth() {
                 await loginUser()
                 swal({
                     icon: 'success',
-                    title: 'Login successfuly',
+                    title: 'Вы успешно вошли',
                     showConfirmButton: false,
                     timer: 1500
                 })
@@ -67,7 +67,7 @@ export default function useAuth() {
                 // await loginUser()
                 swal({
                     icon: 'success',
-                    title: 'Registration successfully',
+                    title: 'Вы зарегистрированы',
                     showConfirmButton: false,
                     timer: 1500
                 })

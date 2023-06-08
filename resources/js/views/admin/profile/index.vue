@@ -12,7 +12,7 @@
                         {{ errors.name }}
                     </div>
                     <div class="text-danger mt-1">
-                        <div v-for="message in validationErrors?.name">
+                        <div v-for="message in validationErrors?.name" :key="message.name">
                             {{ message }}
                         </div>
                     </div>
@@ -24,7 +24,7 @@
                         {{ errors.email }}
                     </div>
                     <div class="text-danger mt-1">
-                        <div v-for="message in validationErrors?.email">
+                        <div v-for="message in validationErrors?.email" :key="message.email">
                             {{ message }}
                         </div>
                     </div>

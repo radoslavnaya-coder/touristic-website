@@ -7,14 +7,14 @@
                         <!-- Title -->
                         <div class="mb-3">
                             <label for="post-title" class="form-label">
-                                Title
+                                Название
                             </label>
                             <input v-model="post.title" id="post-title" type="text" class="form-control">
                             <div class="text-danger mt-1">
                                 {{ errors.title }}
                             </div>
                             <div class="text-danger mt-1">
-                                <div v-for="message in validationErrors?.title">
+                                <div v-for="message in validationErrors?.title" :key="message.title">
                                     {{ message }}
                                 </div>
                             </div>
@@ -22,14 +22,14 @@
                         <!-- Content -->
                         <div class="mb-3">
                             <label for="post-content" class="form-label">
-                                Content
+                                Описание
                             </label>
                             <textarea v-model="post.content" id="post-content" class="form-control"></textarea>
                             <div class="text-danger mt-1">
                                 {{ errors.content }}
                             </div>
                             <div class="text-danger mt-1">
-                                <div v-for="message in validationErrors?.content">
+                                <div v-for="message in validationErrors?.content" :key="message.content">
                                     {{ message }}
                                 </div>
                             </div>
@@ -37,25 +37,25 @@
                         <!-- Category -->
                         <div class="mb-3">
                             <label for="post-category" class="form-label">
-                                Category
+                                Категория
                             </label>
                             <v-select v-model="post.category_id" :options="categoryList" :reduce="category => category.id" label="name" class="form-control" />
                             <div class="text-danger mt-1">
                                 {{ errors.category_id }}
                             </div>
                             <div class="text-danger mt-1">
-                                <div v-for="message in validationErrors?.category_id">
+                                <div v-for="message in validationErrors?.category_id" :key="message.category_id">
                                     {{ message }}
                                 </div>
                             </div>
                         </div>
                         <div class="mb-3">
                             <label for="thumbnail" class="form-label">
-                                Thumbnail
+                                Миниатюра
                             </label>
                             <input @change="post.thumbnail = $event.target.files[0]" type="file" class="form-control" id="thumbnail" />
                             <div class="text-danger mt-1">
-                                <div v-for="message in validationErrors?.thumbnail">
+                                <div v-for="message in validationErrors?.thumbnail" :key="message.thumbnail">
                                     {{ message }}
                                 </div>
                             </div>
@@ -64,8 +64,8 @@
                         <div class="mt-4">
                             <button :disabled="isLoading" class="btn btn-primary">
                                 <div v-show="isLoading" class=""></div>
-                                <span v-if="isLoading">Processing...</span>
-                                <span v-else>Save</span>
+                                <span v-if="isLoading">Загрузка...</span>
+                                <span v-else>Создать</span>
                             </button>
                         </div>
                     </form>

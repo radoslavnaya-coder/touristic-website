@@ -21,11 +21,14 @@
                         </li> -->
                         <!-- <li class="nav-item">
                             <router-link :to="{ name : 'public-posts.index'}" class="nav-link">Blog</router-link>
-                        </li> -->
-                        <li class="nav-item login-button">
+                        </li> --> 
+                            <li class="nav-item login-button">
                             <router-link class="nav-link login-button" to="/login"
                             >{{ $t("login") }}</router-link>
+                            
                         </li>
+                        
+                        
                         <!-- <li class="nav-item">
                             <router-link class="nav-link" to="/register">{{ $t('register') }}</router-link>
                         </li> -->
