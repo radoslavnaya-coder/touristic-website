@@ -25,10 +25,7 @@
                             <li class="nav-item login-button">
                             <router-link class="nav-link login-button" to="/login"
                             >{{ $t("login") }}</router-link>
-                            
                         </li>
-                        
-                        
                         <!-- <li class="nav-item">
                             <router-link class="nav-link" to="/register">{{ $t('register') }}</router-link>
                         </li> -->
@@ -53,6 +50,11 @@
             <a href="" class="mx-3 category__text">{{ $t("Для интровертов")}}</a>
             <a href="" class="mx-3 category__text">{{ $t("Гастро-тур")}}</a>
             <a href="" class="mx-3 category__text">{{ $t("Достопримечательности")}}</a>
+            <a href="" class="mx-3 category__text">{{ $t("Фонтаны")}}</a>
+            <a href="" class="mx-3 category__text">{{ $t("Мероприятия")}}</a>
+            <a href="" class="mx-3 category__text">{{ $t("Театры и цирки")}}</a>
+            <a href="" class="mx-3 category__text">{{ $t("Для детей")}}</a>
+            <a href="" class="mx-3 category__text">{{ $t("Фестивали")}}</a>
         </div>
     </nav>
 </header>
