@@ -8,7 +8,7 @@
             </div>
             <div class="mx-3">
                 <a href="">Поделиться</a><br>
-                <a href="">Предложить место</a>  
+                <a href="">Предложить место</a>
             </div>   
             </nav>
             <router-link to="/" class="footer__name nav-item">Welcome</router-link>
@@ -22,7 +22,7 @@ export default {
 }
 </script>
 <style scoped>
-main *{
+footer *{
     color: white;
 }
 nav{

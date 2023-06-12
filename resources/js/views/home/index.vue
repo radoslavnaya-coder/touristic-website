@@ -7,149 +7,131 @@
             </div> -->
             <div class="card-deck row justify-content-center mt-5">
                 <div class="card col-2 col">
-                    <img class="card-img-top" src="@/images/item1__image.png" alt="Card image cap" />
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
+                    <img class="card-img-top image-cropper" src="@/images/lebed-ozero.jpeg" alt="Card image cap" />
+                    <div class="card-body bg-gray-100">
+                        <h5 class="card-title">Лебединое озеро</h5>
                         <p class="card-text">
-                            This is a longer card with supporting text below as
-                            a natural lead-in to additional content. This
-                            content is a little bit longer.
+                            Озеро расположено около Астраханского Планетария, там...
                         </p>
                         <p class="card-text">
                             <small class="text-muted"
-                                >Last updated 3 mins ago</small
+                                >Обновлено 9 минут назад</small
                             >
                         </p>
                     </div>
                 </div>
                 <div class="card col-2 col">
-                    <img class="card-img-top" src="@/images/item1__image.png" alt="Card image cap" />
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
+                    <img class="card-img-top image-cropper" src="@/images/item1__image.png" alt="Card image cap" />
+                    <div class="card-body bg-gray-100">
+                        <h5 class="card-title">Астраханский кремль</h5>
                         <p class="card-text">
-                            This card has supporting text below as a natural
-                            lead-in to additional content.
+                            Астраханский кремль — историко-архитектурный комплекс, филиал ГБУК АО «Астраханский музей-заповедник», крепость в Астрахани, выстроенная на месте первых фортификационных ...
                         </p>
                         <p class="card-text">
                             <small class="text-muted"
-                                >Last updated 3 mins ago</small
-                            >
-                        </p>
-                    </div>
-                </div>
-                <div class="card col-2 col">
-                    <img
-                        class="card-img-top"
-                        src="@/images/item1__image.png"
-                        alt="Card image cap"
-                    />
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">
-                            This is a wider card with supporting text below as a
-                            natural lead-in to additional content. This card has
-                            even longer content than the first to show that
-                            equal height action.
-                        </p>
-                        <p class="card-text">
-                            <small class="text-muted"
-                                >Last updated 3 mins ago</small
+                                >Обновлено 4 минуты назад</small
                             >
                         </p>
                     </div>
                 </div>
                 <div class="card col-2 col">
                     <img
-                        class="card-img-top"
-                        src="@/images/item1__image.png"
+                        class="card-img-top image-cropper"
+                        src="@/images/brats-garden.jpg"
                         alt="Card image cap"
                     />
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
+                    <div class="card-body bg-gray-100">
+                        <h5 class="card-title">Братский садик</h5>
                         <p class="card-text">
-                            This is a wider card with supporting text below as a
-                            natural lead-in to additional content. This card has
-                            even longer content than the first to show that
-                            equal height action.
+                            Братский сад соседствующий с Кремлём может предложить гостям города....
                         </p>
                         <p class="card-text">
                             <small class="text-muted"
-                                >Last updated 3 mins ago</small
+                                >Обновлено 4 минуты назад</small
+                            >
+                        </p>
+                    </div>
+                </div>
+                <div class="card col-2 col">
+                    <img
+                        class="card-img-top image-cropper"
+                        src="@/images/sea-garden.jpg"
+                        alt="Card image cap"
+                    />
+                    <div class="card-body bg-gray-100">
+                        <h5 class="card-title">Морской сад</h5>
+                        <p class="card-text">
+                            Живописный сад, рядом с Белой крепостью, здесь есть красивая ....
+                        </p>
+                        <p class="card-text">
+                            <small class="text-muted"
+                                >Обновлено 5 минут назад</small
                             >
                         </p>
                     </div>
                 </div>
             </div>
-            <div class="card-deck row justify-content-center mt-5">
+            <div class="card-deck row justify-content-center mt-5 mb-5">
                 <div class="card col-2 col">
-                    <img class="card-img-top" src="@/images/item1__image.png" alt="Card image cap" />
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
+                    <img class="card-img-top image-cropper" src="@/images/lenin-square.jpg" alt="Card image cap" />
+                    <div class="card-body bg-gray-100">
+                        <h5 class="card-title">Площадь Ленина</h5>
                         <p class="card-text">
-                            This is a longer card with supporting text below as
-                            a natural lead-in to additional content. This
-                            content is a little bit longer.
+                            Площадь Ленина - популярное место для астраханцев, там находится много скульптур и фонтанов...
                         </p>
                         <p class="card-text">
                             <small class="text-muted"
-                                >Last updated 3 mins ago</small
+                                >Обновлено 7 минут назад</small
                             >
                         </p>
                     </div>
                 </div>
                 <div class="card col-2 col">
-                    <img class="card-img-top" src="@/images/item1__image.png" alt="Card image cap" />
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
+                    <img class="card-img-top image-cropper" src="@/images/naberezh.jpg" alt="Card image cap" />
+                    <div class="card-body bg-gray-100">
+                        <h5 class="card-title">Набережная</h5>
                         <p class="card-text">
-                            This card has supporting text below as a natural
-                            lead-in to additional content.
+                            Набережная - место времяпрепровождения для взрослых и детей. Здесь можно покататься на самокатах, машинках для детей...
                         </p>
                         <p class="card-text">
                             <small class="text-muted"
-                                >Last updated 3 mins ago</small
-                            >
-                        </p>
-                    </div>
-                </div>
-                <div class="card col-2 col">
-                    <img
-                        class="card-img-top"
-                        src="@/images/item1__image.png"
-                        alt="Card image cap"
-                    />
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">
-                            This is a wider card with supporting text below as a
-                            natural lead-in to additional content. This card has
-                            even longer content than the first to show that
-                            equal height action.
-                        </p>
-                        <p class="card-text">
-                            <small class="text-muted"
-                                >Last updated 3 mins ago</small
+                                >Обновлено 3 минуты назад</small
                             >
                         </p>
                     </div>
                 </div>
                 <div class="card col-2 col">
                     <img
-                        class="card-img-top"
-                        src="@/images/item1__image.png"
+                        class="card-img-top image-cropper"
+                        src="@/images/12.jpg"
                         alt="Card image cap"
                     />
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
+                    <div class="card-body bg-gray-100">
+                        <h5 class="card-title">Ресторан "12"</h5>
                         <p class="card-text">
-                            This is a wider card with supporting text below as a
-                            natural lead-in to additional content. This card has
-                            even longer content than the first to show that
-                            equal height action.
+                            Ресторан итальянской кухни, славящийся своей изысканной подачей блюд....
                         </p>
                         <p class="card-text">
                             <small class="text-muted"
-                                >Last updated 3 mins ago</small
+                                >Обновлено 3 минуты назад</small
+                            >
+                        </p>
+                    </div>
+                </div>
+                <div class="card col-2 col">
+                    <img
+                        class="card-img-top image-cropper"
+                        src="@/images/cactus.jpg"
+                        alt="Card image cap"
+                    />
+                    <div class="card-body bg-gray-100">
+                        <h5 class="card-title">Кактусовое поле</h5>
+                        <p class="card-text">
+                            Небезизвестное кактусовое поле, высаженное вблизи ...
+                        </p>
+                        <p class="card-text">
+                            <small class="text-muted"
+                                >Обновлено 3 минуты назад</small
                             >
                         </p>
                     </div>
@@ -157,6 +139,21 @@
             </div>
         <!-- </div>
     </div> -->
+    <footer class="footer footer-dark bg-black navbar">
+        <div class="container py-5">
+            <nav>
+             <div class="mx-3">
+                <a href="">О нас</a><br>
+                <a href="">Поддержать проект</a>    
+            </div>
+            <div class="mx-3">
+                <a href="">Поделиться</a><br>
+                <a href="">Предложить место</a>
+            </div>   
+            </nav>
+            <router-link to="/" class="footer__name nav-item">Welcome</router-link>
+        </div>
+    </footer>
 </template>
 
 <script setup>
@@ -164,6 +161,21 @@
 </script>
 
 <style scoped>
+footer *{
+    color: white;
+}
+.image-cropper{
+    width: 100%;
+    height: 20vh;
+}
+nav{
+    display: inline-flex;
+}
+.footer__name{
+    text-align: right;
+    font-family: 'Italiana';
+    font-size: 40px;
+}
 body {
     font-family: "Oswald", sans-serif;
 }
@@ -213,8 +225,9 @@ video {
 }
 .bg-gray-100 {
     --bg-opacity: 1;
-    background-color: #f7fafc;
+    background-color: #D9D9D9;
     background-color: rgba(247, 250, 252, var(--bg-opacity));
+    border-radius: 10px;
 }
 .border-gray-200 {
     --border-opacity: 1;
