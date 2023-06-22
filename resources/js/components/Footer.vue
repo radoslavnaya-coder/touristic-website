@@ -3,12 +3,12 @@
         <div class="container py-5">
             <nav>
              <div class="mx-3">
-                <a href="">О нас</a><br>
-                <a href="">Поддержать проект</a>    
+                <router-link to="/aboutus">О нас</router-link><br>
+                <router-link to="/supportingme">Поддержать проект</router-link>  
             </div>
             <div class="mx-3">
                 <a href="">Поделиться</a><br>
-                <a href="">Предложить место</a>
+                <router-link to="/login">Предложить место</router-link>
             </div>   
             </nav>
             <router-link to="/" class="footer__name nav-item">Welcome</router-link>
@@ -17,9 +17,6 @@
 </template>
 
 <script>
-export default {
-    name: 'Footer'
-}
 </script>
 <style scoped>
 footer *{

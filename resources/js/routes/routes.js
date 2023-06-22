@@ -68,6 +68,12 @@ export default [
                 component: () => import('../views/register/index.vue'),
                 beforeEnter: guest,
             },
+            {
+                path: 'aboutus',
+                name: 'components.aboutus',
+                component: () => import('../components/Aboutus.vue'),
+                beforeEnter: guest,
+            },
         ]
     },
     {

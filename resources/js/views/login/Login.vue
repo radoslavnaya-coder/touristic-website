@@ -44,6 +44,7 @@
                                         {{ $t('login') }}
                                     </button>
                                 </div>
+                                <p>Не зарегистрированы?<router-link to="/register">  Зарегистрироваться</router-link></p>
                             </div>
                         </form>
                     </div>

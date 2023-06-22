@@ -60,6 +60,7 @@
                                         {{ $t('register') }}
                                     </button>
                                 </div>
+                                <p>Уже зарегистрированы?<router-link to="/login">  Войти</router-link></p>
                             </div>
                         </form>
                     </div>
