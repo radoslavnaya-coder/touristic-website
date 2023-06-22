@@ -31,7 +31,7 @@
                         </li> -->
                     </template>
                     <li v-if="user?.name" class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="font-size: 18px">
                             {{ user.name }}
                         </a>
                         <ul class="dropdown-menu dropdown-menu-end">

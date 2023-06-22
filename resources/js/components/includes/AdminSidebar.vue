@@ -20,13 +20,21 @@
                     </a>
                     <ul class="collapse nav flex-column ms-1" id="submenu2" data-bs-parent="#menu">
                         <li v-if="can('permission-list')" class="nav-link w-100">
+                            <router-link to="/admin/users" class="nav-link px-0">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-square-fill" viewBox="0 0 16 16">
+                                    <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2z"/>
+                                </svg>
+                                <span class="d-none d-sm-inline ps-2">All of users</span>
+                            </router-link>
+                        </li>
+                        <!-- <li v-if="can('permission-list')" class="nav-link w-100">
                             <router-link :to="{ name: 'permissions.index' }" class="nav-link px-0">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-square-fill" viewBox="0 0 16 16">
                                     <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2z"/>
                                 </svg>
                                 <span class="d-none d-sm-inline ps-2">Permissions</span>
                             </router-link>
-                        </li>
+                        </li> -->
                         <li v-if="can('role-list')" class="nav-link">
                             <router-link :to="{ name: 'roles.index' }" class="nav-link px-0">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-square-fill" viewBox="0 0 16 16">

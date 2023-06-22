@@ -74,6 +74,12 @@ export default [
                 component: () => import('../components/Aboutus.vue'),
                 beforeEnter: guest,
             },
+            {
+                path: 'supportingme',
+                name: 'components.supportingme',
+                component: () => import('../components/Supportingme.vue'),
+                beforeEnter: guest,
+            },
         ]
     },
     {

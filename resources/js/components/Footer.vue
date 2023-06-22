@@ -8,7 +8,7 @@
             </div>
             <div class="mx-3">
                 <a href="">Поделиться</a><br>
-                <router-link to="/login">Предложить место</router-link>
+                <p><router-link to="/login">Предложить место</router-link></p>
             </div>   
             </nav>
             <router-link to="/" class="footer__name nav-item">Welcome</router-link>
